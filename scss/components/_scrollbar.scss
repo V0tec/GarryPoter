@@ -1,0 +1,27 @@
+/* Загальний стиль для самого повзунка */
+::-webkit-scrollbar {
+    width: 12px; /* Ширина вертикального повзунка */
+    height: 12px; /* Висота горизонтального повзунка */
+}
+
+/* Стиль для ковпачка повзунка */
+::-webkit-scrollbar-thumb {
+    background-color: #888; /* Колір ковпачка */
+    border-radius: 10px; /* Округлення країв ковпачка */
+}
+
+/* Стиль для ковпачка при наведенні */
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-brand); /* Колір при наведенні */
+}
+
+/* Стиль для фонового елемента повзунка */
+::-webkit-scrollbar-track {
+    background-color: transparent;  /* Колір фону повзунка */
+    border-radius: 10px; /* Округлення країв */
+}
+
+/* Стиль для кута, якщо є горизонтальний повзунка */
+::-webkit-scrollbar-corner {
+    background-color: transparent; 
+}

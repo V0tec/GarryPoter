@@ -1,0 +1,55 @@
+/* Стилі для контейнера слайдера */
+.slider-container {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 400%; /* ширина для всіх 4 слайдів */
+    position: relative;
+}
+
+/* Стилі для кнопок пагінації */
+.pagination-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1240px;
+    height: 59px;
+    border: 1px solid;
+    border-radius: 100px;
+    margin: 70px auto 0;
+    gap: 7.5px; /* Відступ між кнопками */
+    color: var(--color-grey);
+
+    .pagination-button {
+        display: flex;
+        align-items: center; /* Центрує елементи по вертикалі */
+        justify-content: center; /* Якщо потрібно, можна змінити на 'center', щоб вирівняти все по центру кнопки */
+        flex: 1; /* Робить кожну кнопку рівної ширини */
+        height: 100%;
+        border-radius: 100px;
+        border: 0;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        color: var(--color-primary-light);
+        font-family: "BluuNextCyrillic";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 23.4px;
+    
+        &.active {
+            background: var(--color-brand);
+            color: var(--color-primary-dark);
+            border-color: var(--color-brand);
+        }
+    
+        .button-icon {
+            width: 35px;  /* Висота і ширина для картинки */
+            height: 38px;
+            margin-right: 7.5px; /* Відступ між картинкою і текстом */
+            object-fit: contain; /* Забезпечує, щоб картинка не спотворювалась */
+        }
+    }
+}
+
+

@@ -1,0 +1,32 @@
+body {
+    background-color: var(--color-primary-dark);
+}
+
+h1 {
+    font-family: 
+    "BluuNextCyrillic";
+    font-weight: 700;
+    font-size: 80px;
+    color: var(--color-brand-h);
+    text-transform: uppercase;
+    width: 904px;
+    height: 200px;
+    text-align: center;
+    margin: 100px auto 0;
+}
+
+h2 {
+    font-family: 'Inter';
+    color: var(--color-primary-light);
+    font-size: 26px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    margin: 0;
+    line-height: 36.4px;
+}
+
+ul {
+    list-style: none;
+}
+
+  

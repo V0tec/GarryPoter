@@ -1,0 +1,33 @@
+.button-link { 
+    display: flex; 
+    border: 1px solid; 
+    border-radius: 100px; 
+    width: 320px; 
+    height: 60px; 
+    color: var(--color-brand); 
+    background-color: transparent; 
+    align-items: center; 
+    justify-content: center; 
+    text-decoration: none; 
+    font-family: "BluuNextCyrillic"; 
+    font-size: 18px; 
+    line-height: 23.4px; 
+    transition: background-color 0.5s ease, color 0.5s ease;
+ 
+    &:hover { 
+        background-color: var(--color-brand); 
+        color: var(--color-primary-dark); 
+    } 
+}
+
+.button-students {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: var(--color-primary-light);
+    text-decoration: none;
+    padding-top: 15px;
+    position: relative; /* Додано для позиціювання кнопки */
+    z-index: 2; /* Вищий z-index для кнопки */
+}
